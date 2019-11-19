@@ -1,0 +1,81 @@
+.container
+{
+
+	display: inline flex;
+	flex-direction: row;
+}
+.col img
+{
+	width:100%;
+}
+.col p
+{
+	text-align: center;
+}
+.imageCon:hover img
+{
+	opacity: 0.3;
+
+}
+
+.imageCon
+{
+	position: relative;
+}
+.rating
+{
+	position: absolute;
+	text-align: center;
+	top:10px;
+	left:0;
+	bottom:0;
+	right:0;
+	color: black;
+	font-size: 15px;
+	/*font-size: 10px;*/
+}
+.numofVotes
+{
+	position: absolute;
+	text-align: center;
+	top:30px;
+	left:0;
+	bottom:0;
+	right:0;
+	color: black;
+	font-size: 15px;
+	/*font-size: 10px;*/
+}
+.description
+{
+	position: absolute;
+	text-align: center;
+	top:60px;
+	left:0;
+	bottom:0;
+	right:0;
+	color: black;
+	font-size: 15px;
+	
+}
+.imageCon p
+{
+	visibility: hidden;
+}
+.imageCon:hover p
+{
+	visibility: visible;
+}
+.resultsRow
+{
+	font-size: 18px;
+	margin-left: 16px;
+}
+.title
+{
+	font-size: 15px;
+}
+.release
+{
+	font-size: 15px;
+}
